@@ -50,7 +50,7 @@ section{
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-
+    border: 1px solid #ECECEC;
  }
  .logo{
     font-family: Raleway;
@@ -121,7 +121,10 @@ section{
     border: 1px solid #000000;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 0;
+   
 }
+
 .caption-title{
     font-weight: 900;
     font-size: 44px;
@@ -129,8 +132,11 @@ section{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--title-text-color)
-
+    color: var(--title-text-color);
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 .caption-button{
     font-weight: bold;
@@ -142,6 +148,22 @@ section{
     letter-spacing: 0.06em;
     color: var(--title-text-color);
     background-color: var(--accent-text-color);
+    margin-left: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-right: auto;
+    padding: 10px 32px;
+}
+.advantage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+}
+.advantage-list{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+  margin: 0 auto;
 }
 .advantage h2{
      position: absolute;
@@ -158,12 +180,17 @@ section{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 
 .advantage-list p{
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--page-text-color);
+}
+.features {
+    margin-left: auto;
+    margin-right: auto;
 }
 .features-title{
     font-weight: bold;
@@ -174,8 +201,16 @@ section{
     color: var(--primary-text-color);
 
 }
+.features-list{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+  margin: 0 auto;
+}
 .team{
    background: #F5F4FA; 
+    margin-left: auto;
+    margin-right: auto;
 }
 .team-title{
     font-weight: bold;
@@ -184,6 +219,11 @@ section{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+}
+.team-list{
+    display: inline-flex;
+    justify-content: space-between;
+   
 }
 .team-name{
     font-weight: 500;
