@@ -1,3 +1,11 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -8,6 +16,17 @@ body {
 }
 a{
     text-decoration: none;
+}
+h1, h2, h3, p{
+    margin: 0;
+    list-style: none;
+}
+ul{
+
+}
+section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 :root{
     --primary-text-color: #212121;
@@ -23,34 +42,68 @@ a{
     --box-shadow-portfolio:0px 4px 4px 0px #00000040;
 ;
 }
-.page-header{
+.hed-container{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 
-    
-}
+ }
  .logo{
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.1;
     letter-spacing: 0.03em;
-    color: var(--accent-text-color)
+    color: var(--accent-text-color);
+ 
  }
  .span-logo{
      color: var(--logo-color);
  }
  .nav{
+  
+     width: 294px;
+     margin-left: 93px;
+     margin-right: 331px;
+   
+ }
+ .nav-list {
+     display: flex;
+    justify-content: space-evenly;
+     
+ }
+ .nav-list >li{
+     display: inline-block;
+     justify-content: space-around;
 
  }
+
  .nav-list a {
     font-weight: 500;
     line-height:1.1;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+ 
  }
  .nav-item a:hover, 
  .nav-item a:focus  {
      color: var(--accent-text-color);
  }
+
+ .contakt {
+    display: flex;
+    justify-content: space-evenly;
+    width:307px;
+    padding: 0;
+ }
+ .contakt > li{
+    display: inline-block;
+   justify-content: space-betweens;
+}
  .contakt a {
     font-weight: 500;
     line-height: 1.1;
@@ -62,6 +115,7 @@ a{
 {
     color: var(--accent-text-color);
 }
+
 .caption{
     background: var(--background-color-main);
     border: 1px solid #000000;
