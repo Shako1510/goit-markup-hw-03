@@ -296,7 +296,6 @@ border-radius: 0px 0px 4px 4px;
 
 .footer{
     background: var(--background-color-main);
-    display: flex;
     padding-top: 0;
     padding-bottom: 0;
 
