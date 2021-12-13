@@ -293,12 +293,23 @@ border-radius: 0px 0px 4px 4px;
     height: auto;
 }
 
-}
+
 .footer{
     background: var(--background-color-main);
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+
 }
 .footer-logo{
     color: var(--title-text-color);
+}
+.footlogo{
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 60px;
+
 }
 .footer-adress{
     font-style: normal;
@@ -309,6 +320,18 @@ border-radius: 0px 0px 4px 4px;
     color: var(--background-color);
 
 }
+.footer-menu{
+    display: inline-block;
+    padding-bottom: 60px;
+}
+.footer-list > li {
+display: block;
+}
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+
 .footer-link{
     font-style: normal;
     font-weight: normal;
