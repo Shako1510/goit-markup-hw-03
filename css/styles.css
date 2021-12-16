@@ -72,9 +72,6 @@ li {
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
     margin-right: 93px;
-    margin-bottom: 25px;
-    margin-top: 24px;
- 
  }
  .span-logo{
      color: var(--logo-color);
@@ -88,7 +85,7 @@ li {
  }
  .nav-list {
      display: flex;
-    
+
  }
 
  .nav-item:not(:last-child) {
@@ -104,14 +101,16 @@ li {
     line-height:1.1;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-     padding-top: 8px;
-     padding-bottom: 8px;
+    display: block;
+     padding-top: 32px;
+     padding-bottom: 32px;
    
 
  }
  .nav-link:hover, 
  .nav-link:focus  {
      color: var(--accent-text-color);
+     cursor: pointer;
  }
 
  .contakt {
@@ -131,6 +130,9 @@ li {
     line-height: 1.1;
     letter-spacing: 0.02em;
      color:var(--page-text-color);
+     display: block;
+     padding-top: 32px;
+     padding-bottom: 32px;
  }
 .contakt-link:hover,
 .contakt-link:focus
