@@ -300,8 +300,6 @@ li {
 
 
 .footer{
-   
-
     padding-top: 60px;
     padding-bottom: 60px;
     background: var(--background-color-main);
@@ -372,6 +370,7 @@ display: block;
     align-items: center;
     justify-content: center;
     margin: 0 auto 50px;
+  
    
 }
 .button-list .button-item + .button-item {
@@ -387,6 +386,7 @@ display: block;
     color: var(--primary-text-color);
     background: var(--background-button-portfolio);
     border-radius: var(--portfolio-border-radius);
+    border: none;
 }
 .button-list button:hover {
     background: var(--background-button-hover);
@@ -394,7 +394,7 @@ display: block;
     box-shadow: var(--box-shadow-button-hover);
     cursor: pointer;
     border-radius: var(--portfolio-border-radius);
-
+    border: none;
  
 }
 .button-list button:focus {
@@ -402,7 +402,7 @@ display: block;
     color: var(--title-text-color);
     box-shadow: var(--box-shadow-button-hover);
     border-radius: var(--portfolio-border-radius);
-
+   
  
 }
 
