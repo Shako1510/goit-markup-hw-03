@@ -176,6 +176,7 @@ li {
     margin-right: auto;
     padding: 10px 32px;
     border-radius: 4px;
+    border: none;
 }
 .advantage{
    padding-bottom: 0;
@@ -389,6 +390,7 @@ display: block;
     background: var(--background-button-portfolio);
     border-radius: var(--portfolio-border-radius);
     border: none;
+    padding: 6px 22px;
 }
 .button-list button:hover {
     background: var(--background-button-hover);
